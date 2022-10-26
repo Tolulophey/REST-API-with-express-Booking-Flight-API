@@ -30,7 +30,7 @@ These commands put the application in development mode and directs our applicati
 ## Booking Flight API Reference
 
 ### Getting Started
-- Base URL: At present this app can only be run locally and is not hosted as a base URL. The backend app is hosted at the default, `http://127.0.0.1:3000/` expect if another port is specified. 
+- Base URL: At present this app can only be run locally and is not hosted as a base URL. The backend app is hosted at the default, `http://127.0.0.1:3000/` except if another port is specified. 
 - Authentication: This version of the application does not require authentication or API keys. 
 
 
