@@ -32,7 +32,7 @@ These commands put the application in development mode and directs our applicati
 ### Getting Started
 - Base URL: At present this app can only be run locally and is not hosted as a base URL. The backend app is hosted at the default, `http://127.0.0.1:3000/` expect if another port is specified. 
 - Authentication: This version of the application does not require authentication or API keys. 
-_Note: All https rrquests can be make using postman app or any other similar app or extension_
+**Note: All https rrquests can be make using postman app or any other similar app or extension**
 
 ### Error Handling
 Errors are returned as JSON objects in the following format:
