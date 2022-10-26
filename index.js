@@ -80,6 +80,7 @@ app.put("/flights/:id", async (req, res) => {
         fs.writeFile("flights.json", stringData, (err)=>{
             if (err) throw err
         })
+    
         res.status(200).json({
             message: "flight updated",
             flight
@@ -96,6 +97,10 @@ app.delete("/flights/:id", (req, res) => {
         const id = req.params.id
         const flight = flights.find((flight)=>String(flight.id) === id)
         flights.splice(flights.indexOf(flight), 1)
+        let stringData = JSON.stringify(flights, null, 2)
+        fs.writeFile("flights.json", stringData, (err)=>{
+            if (err) throw err
+        })
         res.status(200).json({
             message: "flight deleted",
             flight
