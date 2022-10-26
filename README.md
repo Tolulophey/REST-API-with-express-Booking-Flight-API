@@ -1,4 +1,4 @@
-#Booking Flight API
+# Booking Flight API
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ These commands put the application in development mode and directs our applicati
 - Authentication: This version of the application does not require authentication or API keys. 
 
 
-**Note: All https rrquests can be make using postman app or any other similar app or extension**
+**Note: All https requests can be make using postman app or any other similar app or extension**
 
 ### Error Handling
 Errors are returned as JSON objects in the following format:
